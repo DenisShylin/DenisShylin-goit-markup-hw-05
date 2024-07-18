@@ -546,8 +546,7 @@ a {
 }
 
 .modal {
-  padding-right: 24px;
-  padding-top: 24px;
+  padding: 24px;
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -560,8 +559,11 @@ a {
 }
 
 .modal-close-btn {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
+  margin-bottom: 24px;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -569,7 +571,87 @@ a {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: #fcfcfc;
+}
+
+.modal-btn {
   fill: #2e2f42;
 }
 
-.modal-btn {}
+.modal-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.modal-filed {
+  margin-bottom: 18px;
+}
+
+.modal-input {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 38px;
+  padding-right: 16px;
+  outline: transparent;
+}
+
+.modal-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-filed-wrap {
+  position: relative;
+}
+
+.modal-input:focus {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-input:focus+.modal-icon {
+  fill: #4d5ae5;
+}
+
+.modal-icon {
+  fill: #4d5ae5;
+  stroke: #4d5ae5;
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-comment {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+  padding-left: 16px;
+  padding-top: 8px;
+  outline: transparent;
+  resize: none;
+}
+
+.comment-filed {}
+
+.text-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+
+
+}
