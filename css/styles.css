@@ -536,6 +536,7 @@ a {
 }
 
 /* MODAL */
+
 .backdrop {
   width: 100%;
   height: 100%;
@@ -592,6 +593,11 @@ a {
   margin-bottom: 18px;
 }
 
+.modal-filed-wrap {
+  margin-top: 4px;
+}
+
+
 .modal-input {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -601,10 +607,18 @@ a {
   padding-left: 38px;
   padding-right: 16px;
   outline: transparent;
+
 }
 
 .modal-input::placeholder {
   font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.name-line {
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
@@ -630,6 +644,14 @@ a {
   left: 19px;
   top: 50%;
   transform: translateY(-50%);
+
+}
+
+.modal-icon-phone,
+.modal-icon-email {
+  position: absolute;
+  left: 19px;
+  margin-top: 13px;
 }
 
 .modal-comment {
@@ -644,14 +666,10 @@ a {
   resize: none;
 }
 
-.comment-filed {}
-
-.text-input {
+.comment-filed {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-
-
 }
