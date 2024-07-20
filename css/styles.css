@@ -741,7 +741,8 @@ a {
 
 }
 
-.name-line {
+.name-line,
+.name-line-comment {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -807,12 +808,9 @@ a {
 }
 
 
+
 .modal-comment {
-
   height: 112px;
-
-
-
 }
 
 .modal-filed-check {
