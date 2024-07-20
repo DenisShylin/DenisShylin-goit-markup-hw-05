@@ -748,6 +748,10 @@ a {
   color: #8e8f99;
 }
 
+.modal-input:focus {
+  border-color: #4D5AE5;
+}
+
 .modal-input:focus+.modal-icon {
   fill: #4d5ae5;
 }
