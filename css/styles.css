@@ -544,6 +544,7 @@ a {
   color: #fff;
 
 }
+
 .modal-filed-footer {
   margin-top: 16px;
   margin-right: 24px;
@@ -551,9 +552,10 @@ a {
 
 .form-footer {
   display: flex;
-  
+
 
 }
+
 .modal-input-footer {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -563,7 +565,7 @@ a {
   padding-left: 16px;
   padding-right: 16px;
   outline: transparent;
-  margin-right: 24px ;
+  margin-right: 24px;
   margin-top: 16px;
 }
 
@@ -573,25 +575,26 @@ a {
 }
 
 .review-btn-footer {
-display: flex; justify-content: flex-start;
-align-items: center;
-font-family: "Roboto", sans-serif;
-padding-left: 8px 24px;
-width: 165px;
-height: 40px;
-background-color: #4d5ae5;
-color: white;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-width: 165px;
-height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding-left: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 165px;
+  height: 40px;
 
 }
 
 .footer-icon-send {
-  fill:  #fff;
-  
+  fill: #fff;
+
 }
 
 /* MODAL */
@@ -612,8 +615,6 @@ height: 40px;
   visibility: visible;
   pointer-events: auto;
 }
-
-
 
 .modal {
   padding: 24px;
@@ -673,7 +674,6 @@ height: 40px;
   position: relative;
 }
 
-
 .modal-input {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -683,7 +683,6 @@ height: 40px;
   padding-left: 38px;
   padding-right: 16px;
   outline: transparent;
-
 }
 
 .modal-input::placeholder {
@@ -705,7 +704,6 @@ height: 40px;
   border: 1px solid #4d5ae5;
 }
 
-
 .modal-icon {
   fill: #2e2f42;
   position: absolute;
@@ -714,20 +712,21 @@ height: 40px;
   transform: translateY(-50%);
 }
 
-
 .modal-icon-phone,
 .modal-icon-email {
   position: absolute;
   left: 19px;
   margin-top: 13px;
 }
+
 .modal-input:focus {
   fill: #4d5ae5;
 }
+
 .modal-icon:hover {
   fill: #4d5ae5;
-
 }
+
 .modal-comment {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -747,7 +746,6 @@ height: 40px;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   margin-bottom: 16px;
-
 }
 
 .review-btn-modal {
@@ -767,8 +765,6 @@ height: 40px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  
-
 }
 
 .modal-check-text span {
@@ -785,9 +781,9 @@ height: 40px;
 }
 
 .modal-check:checked+.modal-check-text span {
- background-color: #404bbf;
- border: none;
- fill: #f4f4fd;
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .privacy-policy-link {
