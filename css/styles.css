@@ -780,11 +780,13 @@ a {
 .user-comment {
   font-weight: 400;
   font-size: 12px;
+  height: 120px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   margin-bottom: 16px;
   margin-top: 16px;
+  outline: transparent;
 }
 
 .modal-comment {
