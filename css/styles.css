@@ -542,8 +542,14 @@ a {
 
 .footer-email {
   color: #fff;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
 }
+
+.input-email {}
 
 .modal-filed-footer {
   margin-top: 16px;
@@ -553,8 +559,7 @@ a {
 .form-footer {
   display: flex;
   align-items: baseline;
-
-
+  gap: 24px;
 }
 
 .modal-input-footer {
@@ -567,15 +572,24 @@ a {
   padding-right: 16px;
   outline: transparent;
   margin-right: 24px;
-  margin-top: 16px;
+  width: 264px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.modal-input-footer::placeholder {
+  color: #ffffff;
 }
 
 .batton-footer {
   display: flex;
 
 }
-
-
 
 .review-btn-footer {
   display: flex;
@@ -599,10 +613,9 @@ a {
 
 }
 
-
-
 .footer-icon-send {
   fill: #fff;
+  margin-left: 16px;
 
 }
 
