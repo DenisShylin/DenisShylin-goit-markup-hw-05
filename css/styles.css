@@ -876,7 +876,8 @@ a {
 }
 
 .review-btn-modal {
-  display: flex;
+  display: block;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   text-align: center;
   justify-content: center;
@@ -884,7 +885,6 @@ a {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
-  text-align: left;
   background-color: #4d5ae5;
   color: white;
   border: none;
