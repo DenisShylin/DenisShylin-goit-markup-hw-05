@@ -8,7 +8,7 @@ img {
   display: block;
 }
 
-.visualli-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -814,9 +814,7 @@ a {
   margin-bottom: 4px;
 }
 
-.modal-comment {
-  height: 112px;
-}
+
 
 .modal-filed-check {
   display: flex;
